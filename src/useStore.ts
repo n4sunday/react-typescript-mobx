@@ -1,7 +1,8 @@
 import { counter } from './stores/counter'
+import { todo } from './stores/todo'
 
 const useStore = () => {
-    return { counter }
+    return { counter, todo }
 }
 
 export default useStore
